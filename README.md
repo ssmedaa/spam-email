@@ -1,4 +1,4 @@
-# Spam Email Detection
+# Spam Email Classification
 
 Spam email involves using NLP and machine learning to classify emails or messages as spam or legitimate. The steps for this detection are:
   1. Data Collection & Preprocessing
