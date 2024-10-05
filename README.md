@@ -1,14 +1,20 @@
 # Spam Email Classification
 
-Spam email involves using NLP and machine learning to classify emails or messages as spam or legitimate. The steps for this detection are:
+## Description
+Created a machine learning algorithm for spam email detection that utilizes natural language processing (NLP) and machine learning techniques to categorize emails as either spam or legitimate.
+
+## Steps
   1. Data Collection & Preprocessing
-     - Kaggle: https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset?resource=download
+     - [Kaggle Email dataset](https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset?resource=download)
   2. Data Analysis
-     - Spam vs. Legit email distribution trend
-     - Top 20 word frequency 
-  3. Model Training & Evaluating 
-     - Logistic Regression: Supervise ML algorithm of binary classifications by predicting email as spam or legit
-     - Model metrics: accuracy, percision, recall, f1-score
-  4. Testing
+     - Analyzing spam emails from legitimate emails, and the top 20 frequent words. 
+  4. Model Training & Evaluating 
+     - Logistic Regression: Supervise ML algorithm of binary classifications by predicting email and categorizing as either: spam or legitimate.
+     - Model metrics evaluation of:
+       accuracy= ![Formula](https://latex.codecogs.com/svg.image?\frac{TP&plus;TN}{TP&plus;TN&plus;FP&plus;FN})
+       percision= ![Formula](https://latex.codecogs.com/svg.image?\frac{TP}{TP&plus;FP})
+       recall= ![Formula](https://latex.codecogs.com/svg.image?\frac{TP}{TP&plus;FN})
+       f1-score= ![Formula](https://latex.codecogs.com/svg.image?\frac{2\times&space;precision\times&space;recall}{precision&plus;recall})
+  5. Testing
      - Use model to test new message, to check accuracy in models prediction ability
 
